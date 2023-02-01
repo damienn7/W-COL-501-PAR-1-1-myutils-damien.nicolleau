@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    background-color: #0f0f0f;
+    color:white;
+    width: 100%;
+    height: auto;
+}
+
+main,footer{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+main{
+    height: 80%;
+}
+
+footer,header{
+    height: auto;
+}
+
+header{
+    padding: 2px;
+    margin: 2px;
+    background-color: #272727;
+    opacity: 0.5;
+}
+
+footer{
+    margin-top: 0;
+}
+
+h1{
+    margin: 50px;
+    color: #c8b9b3;
+}
+
+button{
+    width:70px;
+    height: 70px;
+    margin: 0 20px;  
+    border-radius: 50%;  
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 5%; */
+    height: auto;
+}
+
+.card{
+    background-color: #272727;
+    margin:80px;
+    padding: 20px;
+    width: 30%;
+    height:auto;
+    border-radius: 20px;
+}
+
+.unlike:hover{
+    background-color: #d1286f;
+}
+
+.like:hover{
+    background-color: #464dac;
+}
+
+.begin{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.create{
+    width: 25%;
+    height: auto;
+    font-size: 15px;
+    opacity: 0.6;
+    color: bisque;
+    padding: 0;
+}
+
+.default{
+    width: 50%;
+    height: auto;
+    font-size: 20px;
+    opacity: 0.6;
+    color: bisque;
+    padding: 0;
+}
+
+.create:hover{
+    background-color: bisque;
+    border-radius: 10px;
+    opacity: 0.3;
+    padding: 0;
+    cursor: pointer;
+}
+
+.line{
+    color: #464dac;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.line::after{
+    border: none;
+}
+
+h2{
+    padding: 10px;
+}
+
+.marginLeft{
+    margin-left: 20px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.center_end_span{
+    margin: auto;
+    color: #464dac;
+    width: auto;
+    cursor: pointer;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    position: relative;
+    bottom: 0;
+}
+
+.container_lines{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+p.line{
+    display: grid;
+    /* grid-row: auto; */
+    grid-template-columns: 300px 1fr 1fr;
+
+}
